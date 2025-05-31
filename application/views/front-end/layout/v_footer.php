@@ -5,12 +5,12 @@
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-lg-12 text-center">
-          <h4>Our Newsletter</h4>
-          <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
+          <h4>Наша рассылка</h4>
+          <p>Подпишитесь, чтобы получать новости о наших продуктах и специальных предложениях.</p>
         </div>
         <div class="col-lg-6">
-          <form action="" method="post">
-            <input type="email" name="email"><input type="submit" value="Subscribe">
+          <form action="#" method="post">
+            <input type="email" name="email"><input type="submit" value="Подписаться">
           </form>
         </div>
       </div>
@@ -22,8 +22,8 @@
       <div class="row gy-4">
         <div class="col-lg-5 col-md-12 footer-info card shadow-none">
           <a href="<?= base_url('home'); ?>" class="logo d-flex align-items-center">
-            <img src="<?= base_url('assets/img/company/') . $image; ?>" alt="">
-            <span><?= $setting->nama_perusahaan; ?></span>
+            <img src="<?= base_url('assets/img/company/Miradea.png'); ?>" alt="Логотип Miradea">
+            <span><?= $this->config->item('company_name'); ?></span>
           </a>
           <p><?= $setting->profile; ?></p>
           <div class="social-links mt-3">
@@ -34,30 +34,30 @@
           </div>
         </div>
         <div class="col-lg-2 col-6 footer-links">
-          <h4>Useful Links</h4>
+          <h4>Полезные ссылки</h4>
           <ul>
-            <li><i class="bi bi-chevron-right"></i> <a href="#">Home</a></li>
-            <li><i class="bi bi-chevron-right"></i> <a href="#">About us</a></li>
-            <li><i class="bi bi-chevron-right"></i> <a href="#">Services</a></li>
-            <li><i class="bi bi-chevron-right"></i> <a href="#">Terms of service</a></li>
-            <li><i class="bi bi-chevron-right"></i> <a href="#">Privacy policy</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="<?= base_url('home/#hero'); ?>">Главная</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="<?= base_url('home/#about'); ?>">О нас</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="<?= base_url('home/#services'); ?>">Услуги</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#">Условия обслуживания</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#">Политика конфиденциальности</a></li>
           </ul>
         </div>
 
         <div class="col-lg-2 col-6 footer-links">
-          <h4>Our Services</h4>
+          <h4>Наши продукты</h4> <!-- Changed from "Наши услуги" to "Наши продукты" for better context -->
           <ul>
             <?php foreach ($layanan as $key => $value) : ?>
-              <li><i class="bi bi-chevron-right"></i> <a href="#"><?= $value->judul_layanan; ?></a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="<?= base_url('home/detaillayanan/' . $value->slug_layanan); ?>"><?= $value->judul_layanan; ?></a></li>
             <?php endforeach; ?>
           </ul>
         </div>
         <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
-          <h4>Contact Us</h4>
+          <h4>Свяжитесь с нами</h4>
           <p>
             <?= $setting->alamat; ?> <br>
-            <strong>Phone:</strong> <?= $setting->no_telepon; ?><br>
-            <strong>Email:</strong> <?= $setting->email; ?><br>
+            <strong>Телефон:</strong> <?= $setting->no_telepon; ?><br>
+            <strong>Эл. почта:</strong> <?= $setting->email; ?><br>
           </p>
 
         </div>
@@ -68,7 +68,7 @@
 
   <div class="container">
     <div class="copyright">
-      &copy; Copyright <strong><span><?= date('Y'); ?></span></strong>. All Rights Reserved
+      &copy; Copyright <strong><span><?= $this->config->item('company_name'); ?> <?= date('Y'); ?></span></strong>. Все права защищены
     </div>
   </div>
   </div>

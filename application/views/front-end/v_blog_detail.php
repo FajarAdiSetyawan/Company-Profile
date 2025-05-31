@@ -5,8 +5,8 @@
     <div class="container">
 
       <ol>
-        <li><a href="<?= base_url('home/#hero'); ?>">Home</a></li>
-        <li><a href="<?= base_url('home/blog'); ?>">Blog</a></li>
+        <li><a href="<?= base_url('home/#hero'); ?>">Главная</a></li>
+        <li><a href="<?= base_url('home/blog'); ?>">Блог</a></li>
         <li><?= $berita->judul_berita; ?></li>
       </ol>
       <h2><?= $berita->judul_berita; ?></h2>
@@ -25,7 +25,7 @@
           <div class="card entry entry-single">
 
             <div class="entry-img">
-              <img src="<?= base_url('assets/img/berita/') . $berita->gambar_berita; ?>" alt="" class="img-responsive center-block d-block mx-auto">
+              <img src="<?= base_url('assets/img/berita/') . $berita->gambar_berita; ?>" alt="<?= $berita->judul_berita; ?>" class="img-responsive center-block d-block mx-auto">
             </div>
 
             <h2 class="entry-title">
@@ -36,7 +36,7 @@
               <ul>
                 <li class="d-flex align-items-center"><i class="bi bi-person"></i> <a><?= $berita->nama; ?></a></li>
                 <li class="d-flex align-items-center"><i class="bi bi-clock"></i> <a><?= date('d-M-Y H:i', strtotime($berita->date_cretated)); ?></a></li>
-                <li class="d-flex align-items-center"><i class="bi bi-chat-dots"></i> <a>12 Comments</a></li>
+                <li class="d-flex align-items-center"><i class="bi bi-chat-dots"></i> <a>12 комментариев</a></li>
               </ul>
             </div>
 
@@ -47,7 +47,7 @@
             <div class="entry-footer">
               <i class="bi bi-folder"></i>
               <ul class="cats">
-                <li><a href="#">Business</a></li>
+                <li><a href="#">Бизнес</a></li>
               </ul>
 
               <i class="bi bi-tags"></i>
@@ -59,13 +59,13 @@
           </div><!-- End blog entry -->
 
           <div class="blog-author d-flex align-items-center">
-            <img src="<?= base_url('assets/img/profile/' . $berita->image); ?>" class="rounded-circle float-left" alt="">
+            <img src="<?= base_url('assets/img/profile/' . $berita->image); ?>" class="rounded-circle float-left" alt="<?= $berita->nama; ?>">
             <div>
               <h4><?= $berita->nama; ?></h4>
               <div class="social-links">
                 <a href="https://twitters.com/#"><i class="bi bi-twitter"></i></a>
                 <a href="https://facebook.com/#"><i class="bi bi-facebook"></i></a>
-                <a href="https://instagram.com/#"><i class="biu bi-instagram"></i></a>
+                <a href="https://instagram.com/#"><i class="bi bi-instagram"></i></a>
               </div>
               <p>
                 Itaque quidem optio quia voluptatibus dolorem dolor. Modi eum sed possimus accusantium. Quas repellat voluptatem officia numquam sint aspernatur voluptas. Esse et accusantium ut unde voluptas.
@@ -75,13 +75,13 @@
 
           <div class="blog-comments">
 
-            <h4 class="comments-count">8 Comments</h4>
+            <h4 class="comments-count">8 комментариев</h4>
 
             <div id="comment-1" class="comment">
               <div class="d-flex">
-                <div class="comment-img"><img src="<?= base_url(); ?>vendor/front-end/assets/img/blog/comments-1.jpg" alt=""></div>
+                <div class="comment-img"><img src="<?= base_url(); ?>vendor/front-end/assets/img/blog/comments-1.jpg" alt="Аватар комментатора"></div>
                 <div>
-                  <h5><a href="">Georgia Reader</a> <a href="#" class="reply"><i class="bi bi-reply-fill"></i> Reply</a></h5>
+                  <h5><a href="">Georgia Reader</a> <a href="#" class="reply"><i class="bi bi-reply-fill"></i> Ответить</a></h5>
                   <time datetime="2020-01-01">01 Jan, 2020</time>
                   <p>
                     Et rerum totam nisi. Molestiae vel quam dolorum vel voluptatem et et. Est ad aut sapiente quis molestiae est qui cum soluta.
@@ -93,9 +93,9 @@
 
             <div id="comment-2" class="comment">
               <div class="d-flex">
-                <div class="comment-img"><img src="<?= base_url(); ?>vendor/front-end/assets/img/blog/comments-2.jpg" alt=""></div>
+                <div class="comment-img"><img src="<?= base_url(); ?>vendor/front-end/assets/img/blog/comments-2.jpg" alt="Аватар комментатора"></div>
                 <div>
-                  <h5><a href="">Aron Alvarado</a> <a href="#" class="reply"><i class="bi bi-reply-fill"></i> Reply</a></h5>
+                  <h5><a href="">Aron Alvarado</a> <a href="#" class="reply"><i class="bi bi-reply-fill"></i> Ответить</a></h5>
                   <time datetime="2020-01-01">01 Jan, 2020</time>
                   <p>
                     Ipsam tempora sequi voluptatem quis sapiente non. Autem itaque eveniet saepe. Officiis illo ut beatae.
@@ -105,9 +105,9 @@
 
               <div id="comment-reply-1" class="comment comment-reply">
                 <div class="d-flex">
-                  <div class="comment-img"><img src="<?= base_url(); ?>vendor/front-end/assets/img/blog/comments-3.jpg" alt=""></div>
+                  <div class="comment-img"><img src="<?= base_url(); ?>vendor/front-end/assets/img/blog/comments-3.jpg" alt="Аватар комментатора"></div>
                   <div>
-                    <h5><a href="">Lynda Small</a> <a href="#" class="reply"><i class="bi bi-reply-fill"></i> Reply</a></h5>
+                    <h5><a href="">Lynda Small</a> <a href="#" class="reply"><i class="bi bi-reply-fill"></i> Ответить</a></h5>
                     <time datetime="2020-01-01">01 Jan, 2020</time>
                     <p>
                       Enim ipsa eum fugiat fuga repellat. Commodi quo quo dicta. Est ullam aspernatur ut vitae quia mollitia id non. Qui ad quas nostrum rerum sed necessitatibus aut est. Eum officiis sed repellat maxime vero nisi natus. Amet nesciunt nesciunt qui illum omnis est et dolor recusandae.
@@ -121,9 +121,9 @@
 
                 <div id="comment-reply-2" class="comment comment-reply">
                   <div class="d-flex">
-                    <div class="comment-img"><img src="<?= base_url(); ?>vendor/front-end/assets/img/blog/comments-4.jpg" alt=""></div>
+                    <div class="comment-img"><img src="<?= base_url(); ?>vendor/front-end/assets/img/blog/comments-4.jpg" alt="Аватар комментатора"></div>
                     <div>
-                      <h5><a href="">Sianna Ramsay</a> <a href="#" class="reply"><i class="bi bi-reply-fill"></i> Reply</a></h5>
+                      <h5><a href="">Sianna Ramsay</a> <a href="#" class="reply"><i class="bi bi-reply-fill"></i> Ответить</a></h5>
                       <time datetime="2020-01-01">01 Jan, 2020</time>
                       <p>
                         Et dignissimos impedit nulla et quo distinctio ex nemo. Omnis quia dolores cupiditate et. Ut unde qui eligendi sapiente omnis ullam. Placeat porro est commodi est officiis voluptas repellat quisquam possimus. Perferendis id consectetur necessitatibus.
@@ -139,9 +139,9 @@
 
             <div id="comment-3" class="comment">
               <div class="d-flex">
-                <div class="comment-img"><img src="<?= base_url(); ?>vendor/front-end/assets/img/blog/comments-5.jpg" alt=""></div>
+                <div class="comment-img"><img src="<?= base_url(); ?>vendor/front-end/assets/img/blog/comments-5.jpg" alt="Аватар комментатора"></div>
                 <div>
-                  <h5><a href="">Nolan Davidson</a> <a href="#" class="reply"><i class="bi bi-reply-fill"></i> Reply</a></h5>
+                  <h5><a href="">Nolan Davidson</a> <a href="#" class="reply"><i class="bi bi-reply-fill"></i> Ответить</a></h5>
                   <time datetime="2020-01-01">01 Jan, 2020</time>
                   <p>
                     Distinctio nesciunt rerum reprehenderit sed. Iste omnis eius repellendus quia nihil ut accusantium tempore. Nesciunt expedita id dolor exercitationem aspernatur aut quam ut. Voluptatem est accusamus iste at.
@@ -154,9 +154,9 @@
 
             <div id="comment-4" class="comment">
               <div class="d-flex">
-                <div class="comment-img"><img src="<?= base_url(); ?>vendor/front-end/assets/img/blog/comments-6.jpg" alt=""></div>
+                <div class="comment-img"><img src="<?= base_url(); ?>vendor/front-end/assets/img/blog/comments-6.jpg" alt="Аватар комментатора"></div>
                 <div>
-                  <h5><a href="">Kay Duggan</a> <a href="#" class="reply"><i class="bi bi-reply-fill"></i> Reply</a></h5>
+                  <h5><a href="">Kay Duggan</a> <a href="#" class="reply"><i class="bi bi-reply-fill"></i> Ответить</a></h5>
                   <time datetime="2020-01-01">01 Jan, 2020</time>
                   <p>
                     Dolorem atque aut. Omnis doloremque blanditiis quia eum porro quis ut velit tempore. Cumque sed quia ut maxime. Est ad aut cum. Ut exercitationem non in fugiat.
@@ -167,28 +167,28 @@
             </div><!-- End comment #4 -->
 
             <div class="reply-form">
-              <h4>Leave a Reply</h4>
-              <p>Your email address will not be published. Required fields are marked * </p>
+              <h4>Оставить ответ</h4>
+              <p>Ваш адрес электронной почты не будет опубликован. Обязательные поля отмечены * </p>
               <form action="">
                 <div class="row">
                   <div class="col-md-6 form-group">
-                    <input name="name" type="text" class="form-control" placeholder="Your Name*">
+                    <input name="name" type="text" class="form-control" placeholder="Ваше имя*">
                   </div>
                   <div class="col-md-6 form-group">
-                    <input name="email" type="text" class="form-control" placeholder="Your Email*">
+                    <input name="email" type="text" class="form-control" placeholder="Ваш Email*">
                   </div>
                 </div>
                 <div class="row">
                   <div class="col form-group">
-                    <input name="website" type="text" class="form-control" placeholder="Your Website">
+                    <input name="website" type="text" class="form-control" placeholder="Ваш сайт">
                   </div>
                 </div>
                 <div class="row">
                   <div class="col form-group">
-                    <textarea name="comment" class="form-control" placeholder="Your Comment*"></textarea>
+                    <textarea name="comment" class="form-control" placeholder="Ваш комментарий*"></textarea>
                   </div>
                 </div>
-                <button type="submit" class="btn btn-primary">Post Comment</button>
+                <button type="submit" class="btn btn-primary">Опубликовать комментарий</button>
 
               </form>
 
@@ -202,7 +202,7 @@
 
           <div class="sidebar">
 
-            <h3 class="sidebar-title">Search</h3>
+            <h3 class="sidebar-title">Поиск</h3>
             <div class="sidebar-item search-form">
               <form action="">
                 <input type="text">
@@ -210,7 +210,7 @@
               </form>
             </div><!-- End sidebar search formn-->
 
-            <h3 class="sidebar-title">Categories</h3>
+            <h3 class="sidebar-title">Категории</h3>
             <div class="sidebar-item categories">
               <ul>
                 <?php foreach ($kategori as $key => $values) : ?>
@@ -219,13 +219,13 @@
               </ul>
             </div><!-- End sidebar categories-->
 
-            <h3 class="sidebar-title">Recent Posts</h3>
+            <h3 class="sidebar-title">Последние записи</h3>
             <?php foreach ($lastst_berita as $key => $value) :
               // CEK KONDISI BERITA
               if ($value->status_berita == "Publish") : ?>
                 <div class="sidebar-item recent-posts">
                   <div class="post-item clearfix">
-                    <img src="<?= base_url('assets/img/berita/') . $value->gambar_berita; ?>" alt="">
+                    <img src="<?= base_url('assets/img/berita/') . $value->gambar_berita; ?>" alt="<?= $value->judul_berita; ?>">
                     <h4><a href="<?= base_url('home/detail/' . $value->slug_berita); ?>"><?= $value->judul_berita; ?></a></h4>
                     <time datetime="01-01-2020"><?= date('d-m-Y H:i', strtotime($value->date_cretated)); ?></time>
                   </div>
@@ -234,20 +234,20 @@
             <?php endforeach; ?>
             <!-- End sidebar recent posts-->
 
-            <h3 class="sidebar-title">Tags</h3>
+            <h3 class="sidebar-title">Теги</h3>
             <div class="sidebar-item tags">
               <ul>
-                <li><a href="#">App</a></li>
-                <li><a href="#">IT</a></li>
-                <li><a href="#">Business</a></li>
-                <li><a href="#">Mac</a></li>
-                <li><a href="#">Design</a></li>
-                <li><a href="#">Office</a></li>
-                <li><a href="#">Creative</a></li>
-                <li><a href="#">Studio</a></li>
-                <li><a href="#">Smart</a></li>
-                <li><a href="#">Tips</a></li>
-                <li><a href="#">Marketing</a></li>
+                <li><a href="#">Уборка</a></li>
+                <li><a href="#">Советы</a></li>
+                <li><a href="#">DIY</a></li>
+                <li><a href="#">Эко-средства</a></li>
+                <li><a href="#">Уход за кожей</a></li>
+                <li><a href="#">Дети</a></li>
+                <li><a href="#">Дом</a></li>
+                <li><a href="#">Гигиена</a></li>
+                <li><a href="#">Новинки</a></li>
+                <li><a href="#">Обзоры</a></li>
+                <li><a href="#">Акции</a></li>
               </ul>
             </div><!-- End sidebar tags-->
 

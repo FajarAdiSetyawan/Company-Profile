@@ -5,72 +5,72 @@
         <div class="section-header-back">
           <a href="features-posts.html" class="btn btn-icon"><i class="fas fa-arrow-left"></i></a>
         </div>
-        <h1>Tulis Artikel</h1>
+        <h1>Написать статью</h1>
         <div class="section-header-breadcrumb">
-          <div class="breadcrumb-item active"><a href="#">Artikel</a></div>
-          <div class="breadcrumb-item">Tulis Artikel</div>
+          <div class="breadcrumb-item active"><a href="#">Статьи</a></div>
+          <div class="breadcrumb-item">Написать статью</div>
         </div>
       </div>
 
       <div class="section-body">
-        <h2 class="section-title">Tulis Artikel</h2>
+        <h2 class="section-title">Написать статью</h2>
         <p class="section-lead">
-          Di halaman ini Anda dapat membuat posting baru dan mengisi semua kolom.
+          На этой странице вы можете создать новую запись и заполнить все поля.
         </p>
 
         <div class="row">
           <div class="col-12">
             <div class="card">
               <div class="card-header">
-                <h4>Tulis Postingan</h4>
+                <h4>Написать пост</h4>
               </div>
               <div class="card-body">
                 <form method="post" action="" enctype="multipart/form-data">
                   <div class="form-group row mb-4">
-                    <label class="col-form-label col-12 col-md-3 col-lg-3">Judul</label>
+                    <label class="col-form-label col-12 col-md-3 col-lg-3">Заголовок</label>
                     <div class="col-sm-12 col-md-9">
                       <input type="text" class="form-control">
                     </div>
                   </div>
                   <div class="form-group row mb-4">
-                    <label class="col-form-label col-12 col-md-3 col-lg-3">Kategory</label>
+                    <label class="col-form-label col-12 col-md-3 col-lg-3">Категория</label>
                     <div class="col-sm-12 col-md-9">
                       <select class="form-control selectric">
-                        <option>Tech</option>
-                        <option>News</option>
-                        <option>Political</option>
+                        <option>Технологии</option>
+                        <option>Новости</option>
+                        <option>Политика</option>
                       </select>
                     </div>
                   </div>
                   <div class="form-group row mb-4">
-                    <label class="col-form-label col-12 col-md-3 col-lg-3">Isi</label>
+                    <label class="col-form-label col-12 col-md-3 col-lg-3">Содержание</label>
                     <div class="col-sm-12 col-md-9">
-                      <textarea name="isi" id="isi" required>Isi Artikel</textarea>
+                      <textarea name="isi" id="isi" required>Содержание статьи</textarea>
                     </div>
                   </div>
                   <div class="form-group row mb-4">
-                    <label class="col-form-label col-12 col-md-3 col-lg-3">Thumbnail</label>
+                    <label class="col-form-label col-12 col-md-3 col-lg-3">Миниатюра</label>
                     <div class="col-sm-12 col-md-9">
                       <div id="image-preview" class="image-preview">
-                        <label for="image-upload" id="image-label">Choose File</label>
+                        <label for="image-upload" id="image-label">Выберите файл</label>
                         <input type="file" name="image" id="image-upload" />
                       </div>
                     </div>
                   </div>
                   <div class="form-group row mb-4">
-                    <label class="col-form-label col-12 col-md-3 col-lg-3">Status</label>
+                    <label class="col-form-label col-12 col-md-3 col-lg-3">Статус</label>
                     <div class="col-sm-12 col-md-9">
                       <select class="form-control selectric">
-                        <option>Publish</option>
-                        <option>Draft</option>
-                        <option>Pending</option>
+                        <option>Опубликовать</option>
+                        <option>Черновик</option>
+                        <option>В ожидании</option>
                       </select>
                     </div>
                   </div>
                   <div class="form-group row mb-4">
                     <label class="col-form-label col-12 col-md-3 col-lg-3"></label>
                     <div class="col-sm-12 col-md-9">
-                      <button class="btn btn-primary">Create Post</button>
+                      <button class="btn btn-primary">Создать пост</button>
                     </div>
                   </div>
                 </form>
@@ -88,24 +88,24 @@
   <div class="main-content">
     <section class="section">
       <div class="section-header">
-        <h1>Daftar Artikel</h1>
+        <h1>Список статей</h1>
         <div class="section-header-breadcrumb">
-          <div class="breadcrumb-item active"><a href="#">Artikel</a></div>
-          <div class="breadcrumb-item">Daftar Artikel</div>
+          <div class="breadcrumb-item active"><a href="#">Статьи</a></div>
+          <div class="breadcrumb-item">Список статей</div>
         </div>
       </div>
 
       <div class="section-body">
-        <h2 class="section-title">Daftar Artikel</h2>
+        <h2 class="section-title">Список статей</h2>
         <p class="section-lead">
-          We use 'DataTables' made by @SpryMedia. You can check the full documentation <a href="https://datatables.net/">here</a>.
+          Мы используем 'DataTables' от @SpryMedia. Полную документацию вы можете найти <a href="https://datatables.net/">здесь</a>.
         </p>
 
         <div class="row">
           <div class="col-12">
             <div class="card">
               <div class="card-header">
-                <h4>Daftar Artikel</h4>
+                <h4>Список статей</h4>
               </div>
               <div class="card-body">
                 <div class="table-responsive">
@@ -113,10 +113,10 @@
                     <thead>
                       <tr>
                         <th class="text-center" style="width: 15%;">
-                          No
+                          №
                         </th>
-                        <th class="text-center">Judul Artikel</th>
-                        <th class="text-center">Opsi</th>
+                        <th class="text-center">Заголовок статьи</th>
+                        <th class="text-center">Опции</th>
                       </tr>
                     </thead>
                     <tbody>
@@ -124,31 +124,31 @@
                         <td class="text-center">
                           1
                         </td>
-                        <td>Create a mobile app</td>
-                        <td class="text-center"><a href="#" class="btn btn-secondary">Detail</a></td>
+                        <td>Создать мобильное приложение</td>
+                        <td class="text-center"><a href="#" class="btn btn-secondary">Подробнее</a></td>
                       </tr>
                       <tr>
                         <td class="text-center">
                           2
                         </td>
-                        <td>Redesign homepage</td>
-                        <td class="text-center"><a href="#" class="btn btn-secondary">Detail</a></td>
+                        <td>Редизайн главной страницы</td>
+                        <td class="text-center"><a href="#" class="btn btn-secondary">Подробнее</a></td>
                       </tr>
                       <tr>
                         <td class="text-center">
                           3
                         </td>
-                        <td>Backup database</td>
+                        <td>Резервное копирование базы данных</td>
 
-                        <td class="text-center"><a href="#" class="btn btn-secondary">Detail</a></td>
+                        <td class="text-center"><a href="#" class="btn btn-secondary">Подробнее</a></td>
                       </tr>
                       <tr>
                         <td class="text-center">
                           4
                         </td>
-                        <td>Input data</td>
+                        <td>Ввод данных</td>
 
-                        <td class="text-center"><a href="#" class="btn btn-secondary">Detail</a></td>
+                        <td class="text-center"><a href="#" class="btn btn-secondary">Подробнее</a></td>
                       </tr>
                     </tbody>
                   </table>

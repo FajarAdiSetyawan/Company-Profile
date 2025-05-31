@@ -5,10 +5,10 @@
     <div class="container">
 
       <ol>
-        <li><a href="<?= base_url('home/#hero'); ?>">Home</a></li>
-        <li>Blog</li>
+        <li><a href="<?= base_url('home/#hero'); ?>">Главная</a></li>
+        <li>Блог</li>
       </ol>
-      <h2>Blog</h2>
+      <h2>Блог</h2>
 
     </div>
   </section><!-- End Breadcrumbs -->
@@ -34,7 +34,7 @@
             if ($value->status_berita == "Publish") : ?>
               <div class="card mb-4 entry">
                 <div class="entry-img">
-                  <img src="<?= base_url('assets/img/berita/') . $value->gambar_berita; ?>" alt="" class="img-responsive center-block d-block mx-auto">
+                  <img src="<?= base_url('assets/img/berita/') . $value->gambar_berita; ?>" alt="<?= $value->judul_berita; ?>" class="img-responsive center-block d-block mx-auto">
                 </div>
 
                 <h2 class="entry-title">
@@ -44,7 +44,7 @@
                   <ul>
                     <li class="d-flex align-items-center"><i class="bi bi-person"></i> <a><?= $value->nama; ?></a></li>
                     <li class="d-flex align-items-center"><i class="bi bi-clock"></i> <a><?= date('d-M-Y H:i', strtotime($value->date_cretated)); ?></a></li>
-                    <li class="d-flex align-items-center"><i class="bi bi-chat-dots"></i> <a>12 Comments</a></li>
+                    <li class="d-flex align-items-center"><i class="bi bi-chat-dots"></i> <a>12 комментариев</a></li>
                   </ul>
                 </div>
                 <div class="entry-content">
@@ -52,7 +52,7 @@
                     <?= $isi; ?>
                   </p>
                   <div class="read-more">
-                    <a href="<?= base_url('home/detail/' . $value->slug_berita); ?>">Read More</a>
+                    <a href="<?= base_url('home/detail/' . $value->slug_berita); ?>">Читать далее</a>
                   </div>
                 </div>
               </div>
@@ -74,7 +74,7 @@
 
           <div class="sidebar">
 
-            <h3 class="sidebar-title">Search</h3>
+            <h3 class="sidebar-title">Поиск</h3>
             <div class="sidebar-item search-form">
               <form action="">
                 <input type="text">
@@ -82,7 +82,7 @@
               </form>
             </div><!-- End sidebar search formn-->
 
-            <h3 class="sidebar-title">Kategori</h3>
+            <h3 class="sidebar-title">Категории</h3>
             <div class="sidebar-item categories">
               <ul>
                 <?php foreach ($kategori as $key => $values) : ?>
@@ -91,34 +91,34 @@
               </ul>
             </div><!-- End sidebar categories-->
             <!-- PRINT DATA BERITA -->
-            <h3 class="sidebar-title">Recent Posts</h3>
+            <h3 class="sidebar-title">Последние записи</h3>
             <?php foreach ($lastst_berita as $key => $value) :
               // CEK KONDISI BERITA
 
               if ($value->status_berita == "Publish") : ?>
                 <div class="sidebar-item recent-posts">
                   <div class="post-item clearfix">
-                    <img src="<?= base_url('assets/img/berita/') . $value->gambar_berita; ?>" alt="">
+                    <img src="<?= base_url('assets/img/berita/') . $value->gambar_berita; ?>" alt="<?= $value->judul_berita; ?>">
                     <h4><a href="<?= base_url('home/detail/' . $value->slug_berita); ?>"><?= $value->judul_berita; ?></a></h4>
                     <time datetime="01-01-2020"><?= date('d-m-Y H:i', strtotime($value->date_cretated)); ?></time>
                   </div>
                 </div><!-- End sidebar recent posts-->
               <?php endif; ?>
             <?php endforeach; ?>
-            <h3 class="sidebar-title">Tags</h3>
+            <h3 class="sidebar-title">Теги</h3>
             <div class="sidebar-item tags">
               <ul>
-                <li><a href="#">App</a></li>
-                <li><a href="#">IT</a></li>
-                <li><a href="#">Business</a></li>
-                <li><a href="#">Mac</a></li>
-                <li><a href="#">Design</a></li>
-                <li><a href="#">Office</a></li>
-                <li><a href="#">Creative</a></li>
-                <li><a href="#">Studio</a></li>
-                <li><a href="#">Smart</a></li>
-                <li><a href="#">Tips</a></li>
-                <li><a href="#">Marketing</a></li>
+                <li><a href="#">Уборка</a></li>
+                <li><a href="#">Советы</a></li>
+                <li><a href="#">DIY</a></li>
+                <li><a href="#">Эко-средства</a></li>
+                <li><a href="#">Уход за кожей</a></li>
+                <li><a href="#">Дети</a></li>
+                <li><a href="#">Дом</a></li>
+                <li><a href="#">Гигиена</a></li>
+                <li><a href="#">Новинки</a></li>
+                <li><a href="#">Обзоры</a></li>
+                <li><a href="#">Акции</a></li>
               </ul>
             </div><!-- End sidebar tags-->
 

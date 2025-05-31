@@ -4,19 +4,19 @@
   <div class="container">
     <div class="row">
       <div class="col-lg-6 d-flex flex-column justify-content-center">
-        <h1 data-aos="fade-up">We offer modern solutions for growing your business</h1>
-        <h2 data-aos="fade-up" data-aos-delay="400">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto, quaerat.</h2>
+        <h1 data-aos="fade-up">Чистота и забота о каждом доме</h1>
+        <h2 data-aos="fade-up" data-aos-delay="400">Высококачественные продукты для безупречной чистоты и ежедневного ухода.</h2>
         <div data-aos="fade-up" data-aos-delay="600">
           <div class="text-center text-lg-start">
             <a href="#about" class="btn-get-started scrollto d-inline-flex align-items-center justify-content-center align-self-center">
-              <span>Get Started</span>
+              <span>Начать</span>
               <i class="bi bi-arrow-right"></i>
             </a>
           </div>
         </div>
       </div>
       <div class="col-lg-6 hero-img" data-aos="zoom-out" data-aos-delay="200">
-        <img src="<?= base_url(); ?>vendor/front-end/assets/img/hero-img.png" class="img-fluid" alt="">
+        <img src="<?= base_url(); ?>vendor/front-end/assets/img/hero-img.png" class="img-fluid" alt="Современные решения для бизнеса">
       </div>
     </div>
   </div>
@@ -32,13 +32,13 @@
 
         <div class="col-lg-6 d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="200">
           <div class="content card">
-            <h3>Who We Are</h3>
+            <h3>Кто мы</h3>
             <p>
               <?= $setting->profile; ?>
             </p>
             <div class="text-center text-lg-start">
               <a href="#" class="btn-read-more d-inline-flex align-items-center justify-content-center align-self-center">
-                <span>Read More</span>
+                <span>Читать далее</span>
                 <i class="bi bi-arrow-right"></i>
               </a>
             </div>
@@ -46,7 +46,7 @@
         </div>
 
         <div class="col-lg-6 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="200">
-          <img src="<?= base_url(); ?>vendor/front-end/assets/img/about.jpg" class="img-fluid" alt="">
+          <img src="<?= base_url(); ?>vendor/front-end/assets/img/miradea-about-us.jpg" class="img-fluid" alt="О компании Miradea - бытовая химия и гигиена">
         </div>
 
       </div>
@@ -60,34 +60,34 @@
     <div class="container" data-aos="fade-up">
 
       <header class="section-header">
-        <h2>Our Values</h2>
+        <h2>Наши ценности</h2>
         <hr>
-        <p>Odit est perspiciatis laborum et dicta</p>
+        <p>В основе нашей работы лежат принципы, которые помогают нам создавать лучшие продукты для вас.</p>
       </header>
 
       <div class="row">
 
         <div class="col-lg-4">
           <div class="box" data-aos="fade-up" data-aos-delay="200">
-            <img src="<?= base_url(); ?>vendor/front-end/assets/img/values-1.png" class="img-fluid" alt="">
-            <h3>Lorem ipsum, dolor sit amet consectetur adipisicing.</h3>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Expedita distinctio id iure asperiores delectus recusandae!</p>
+            <img src="<?= base_url(); ?>vendor/front-end/assets/img/value-safety.png" class="img-fluid" alt="Качество и безопасность">
+            <h3>Качество и безопасность</h3>
+            <p>Мы используем только проверенные компоненты и строго контролируем все этапы производства.</p>
           </div>
         </div>
 
         <div class="col-lg-4 mt-4 mt-lg-0">
           <div class="box" data-aos="fade-up" data-aos-delay="400">
-            <img src="<?= base_url(); ?>vendor/front-end/assets/img/values-2.png" class="img-fluid" alt="">
-            <h3>Lorem ipsum dolor sit amet consectetur adipisicing.</h3>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora rem eaque odio magnam cumque. Fuga?</p>
+            <img src="<?= base_url(); ?>vendor/front-end/assets/img/value-eco.png" class="img-fluid" alt="Инновации и экологичность">
+            <h3>Инновации и экологичность</h3>
+            <p>Постоянно ищем новые решения для повышения эффективности и снижения воздействия на окружающую среду.</p>
           </div>
         </div>
 
         <div class="col-lg-4 mt-4 mt-lg-0">
           <div class="box" data-aos="fade-up" data-aos-delay="600">
-            <img src="<?= base_url(); ?>vendor/front-end/assets/img/values-3.png" class="img-fluid" alt="">
-            <h3>Lorem ipsum dolor sit amet consectetur adipisicing.</h3>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic quisquam quis alias cum tempore iste!</p>
+            <img src="<?= base_url(); ?>vendor/front-end/assets/img/value-care.png" class="img-fluid" alt="Забота о клиентах">
+            <h3>Забота о клиентах</h3>
+            <p>Ваше доверие и комфорт – наш главный приоритет. Мы всегда готовы помочь и предложить лучшее.</p>
           </div>
         </div>
 
@@ -108,7 +108,7 @@
             <i class="bi bi-emoji-smile"></i>
             <div>
               <span data-purecounter-start="0" data-purecounter-end="<?= $this->M_dashboard->client()->total; ?>" data-purecounter-duration="1" class="purecounter"></span>
-              <p>Happy Clients</p>
+              <p>Счастливых клиентов</p>
             </div>
           </div>
         </div>
@@ -118,7 +118,7 @@
             <i class="bi bi-journal-richtext" style="color: #ee6c20;"></i>
             <div>
               <span data-purecounter-start="0" data-purecounter-end="521" data-purecounter-duration="1" class="purecounter"></span>
-              <p>Projects</p>
+              <p>Проектов</p>
             </div>
           </div>
         </div>
@@ -128,7 +128,7 @@
             <i class="bi bi-headset" style="color: #15be56;"></i>
             <div>
               <span data-purecounter-start="0" data-purecounter-end="1463" data-purecounter-duration="1" class="purecounter"></span>
-              <p>Hours Of Support</p>
+              <p>Часов поддержки</p>
             </div>
           </div>
         </div>
@@ -138,7 +138,7 @@
             <i class="bi bi-people" style="color: #bb0852;"></i>
             <div>
               <span data-purecounter-start="0" data-purecounter-end="<?= $this->M_dashboard->staff()->total; ?>" data-purecounter-duration="1" class="purecounter"></span>
-              <p>Hard Workers</p>
+              <p>Трудолюбивых сотрудников</p>
             </div>
           </div>
         </div>
@@ -154,15 +154,15 @@
     <div class="container" data-aos="fade-up">
 
       <header class="section-header">
-        <h2>Features</h2>
+        <h2>Особенности</h2>
         <hr>
-        <p>Laboriosam et omnis fuga quis dolor direda fara</p>
+        <p>Ключевые аспекты нашей продукции, обеспечивающие превосходный результат.</p>
       </header>
 
       <div class="row">
 
         <div class="col-lg-6">
-          <img src="<?= base_url(); ?>vendor/front-end/assets/img/features.png" class="img-fluid" alt="">
+          <img src="<?= base_url(); ?>vendor/front-end/assets/img/household-chemicals-features.jpg" class="img-fluid" alt="Преимущества продукции Miradea">
         </div>
 
         <div class="col-lg-6 mt-5 mt-lg-0 d-flex">
@@ -171,42 +171,42 @@
             <div class="col-md-6" data-aos="zoom-out" data-aos-delay="200">
               <div class="feature-box d-flex align-items-center">
                 <i class="bi bi-check"></i>
-                <h3>Eos aspernatur rem</h3>
+                <h3>Эффективные формулы</h3>
               </div>
             </div>
 
             <div class="col-md-6" data-aos="zoom-out" data-aos-delay="300">
               <div class="feature-box d-flex align-items-center">
                 <i class="bi bi-check"></i>
-                <h3>Facilis neque ipsa</h3>
+                <h3>Безопасно для семьи и природы</h3>
               </div>
             </div>
 
             <div class="col-md-6" data-aos="zoom-out" data-aos-delay="400">
               <div class="feature-box d-flex align-items-center">
                 <i class="bi bi-check"></i>
-                <h3>Volup amet voluptas</h3>
+                <h3>Широкий ассортимент</h3>
               </div>
             </div>
 
             <div class="col-md-6" data-aos="zoom-out" data-aos-delay="500">
               <div class="feature-box d-flex align-items-center">
                 <i class="bi bi-check"></i>
-                <h3>Rerum omnis sint</h3>
+                <h3>Дерматологически протестировано</h3>
               </div>
             </div>
 
             <div class="col-md-6" data-aos="zoom-out" data-aos-delay="600">
               <div class="feature-box d-flex align-items-center">
                 <i class="bi bi-check"></i>
-                <h3>Alias possimus</h3>
+                <h3>Удобная упаковка</h3>
               </div>
             </div>
 
             <div class="col-md-6" data-aos="zoom-out" data-aos-delay="700">
               <div class="feature-box d-flex align-items-center">
                 <i class="bi bi-check"></i>
-                <h3>Repellendus mollitia</h3>
+                <h3>Приятные ароматы</h3>
               </div>
             </div>
 
@@ -218,18 +218,18 @@
       <!-- Feature Tabs -->
       <div class="row feture-tabs" data-aos="fade-up">
         <div class="col-lg-6">
-          <h3>Visi, Misi, & Sejarah Perusahaan</h3>
+          <h3>Видение, Миссия и История компании</h3>
 
           <!-- Tabs -->
           <ul class="nav nav-pills mb-3">
             <li>
-              <a class="nav-link active" data-bs-toggle="pill" href="#tab1">Visi</a>
+              <a class="nav-link active" data-bs-toggle="pill" href="#tab1">Видение</a>
             </li>
             <li>
-              <a class="nav-link" data-bs-toggle="pill" href="#tab2">Misi</a>
+              <a class="nav-link" data-bs-toggle="pill" href="#tab2">Миссия</a>
             </li>
             <li>
-              <a class="nav-link" data-bs-toggle="pill" href="#tab3">Sejarah</a>
+              <a class="nav-link" data-bs-toggle="pill" href="#tab3">История</a>
             </li>
           </ul><!-- End Tabs -->
 
@@ -253,7 +253,7 @@
         </div>
 
         <div class="col-lg-6">
-          <img src="<?= base_url(); ?>vendor/front-end/assets/img/features-2.png" class="img-fluid" alt="">
+          <img src="<?= base_url(); ?>vendor/front-end/assets/img/features-2.png" class="img-fluid" alt="Видение, Миссия, История">
         </div>
 
       </div><!-- End Feature Tabs -->
@@ -338,8 +338,8 @@
     <div class="container" data-aos="fade-up">
 
       <header class="section-header">
-        <h2>Services</h2>
-        <p>Veritatis et dolores facere numquam et praesentium</p>
+        <h2>Услуги</h2>
+        <p>Откройте для себя наш ассортимент качественной бытовой химии и средств личной гигиены.</p>
       </header>
 
       <div class="row gy-4">
@@ -348,10 +348,10 @@
           if ($value->status_layanan == "Publish") : ?>
             <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
               <div class="service-box blue">
-                <div class="post-img"> <img src="<?= base_url('assets/img/layanan/') . $value->gambar_layanan; ?>" alt="" class="img-fluid rounded " style="height: 100px; width:100px;">
+                <div class="post-img"> <img src="<?= base_url('assets/img/layanan/') . $value->gambar_layanan; ?>" alt="<?= $value->judul_layanan; ?>" class="img-fluid rounded " style="height: 100px; width:100px;">
                 </div>
                 <h3><?= $value->judul_layanan; ?></h3>
-                <a href="<?= base_url('home/detaillayanan/' . $value->slug_layanan); ?>" class="read-more"><span>Read More</span> <i class="bi bi-arrow-right"></i></a>
+                <a href="<?= base_url('home/detaillayanan/' . $value->slug_layanan); ?>" class="read-more"><span>Читать далее</span> <i class="bi bi-arrow-right"></i></a>
               </div>
             </div>
           <?php endif; ?>
@@ -369,8 +369,8 @@
     <div class="container" data-aos="fade-up">
 
       <header class="section-header">
-        <h2>F.A.Q</h2>
-        <p>Frequently Asked Questions</p>
+        <h2>ЧаВо</h2>
+        <p>Часто задаваемые вопросы</p>
       </header>
 
       <div class="row">
@@ -380,12 +380,12 @@
             <div class="accordion-item">
               <h2 class="accordion-header">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-1">
-                  Non consectetur a erat nam at lectus urna duis?
+                  Безопасна ли ваша продукция для детей и домашних животных?
                 </button>
               </h2>
               <div id="faq-content-1" class="accordion-collapse collapse" data-bs-parent="#faqlist1">
                 <div class="accordion-body">
-                  Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.
+                  Большинство наших продуктов безопасно при соблюдении инструкций. Для семей с маленькими детьми и животными мы рекомендуем нашу специальную эко-линейку. Всегда читайте этикетку перед использованием.
                 </div>
               </div>
             </div>
@@ -393,12 +393,12 @@
             <div class="accordion-item">
               <h2 class="accordion-header">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-2">
-                  Feugiat scelerisque varius morbi enim nunc faucibus a pellentesque?
+                  Где я могу купить вашу продукцию?
                 </button>
               </h2>
               <div id="faq-content-2" class="accordion-collapse collapse" data-bs-parent="#faqlist1">
                 <div class="accordion-body">
-                  Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.
+                  Нашу продукцию можно найти в ведущих супермаркетах, хозяйственных магазинах, а также заказать онлайн на нашем сайте и у партнеров.
                 </div>
               </div>
             </div>
@@ -406,12 +406,12 @@
             <div class="accordion-item">
               <h2 class="accordion-header">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-3">
-                  Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi?
+                  Используете ли вы натуральные компоненты?
                 </button>
               </h2>
               <div id="faq-content-3" class="accordion-collapse collapse" data-bs-parent="#faqlist1">
                 <div class="accordion-body">
-                  Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum tellus pellentesque eu tincidunt. Lectus urna duis convallis convallis tellus. Urna molestie at elementum eu facilisis sed odio morbi quis
+                  Да, мы активно используем натуральные экстракты и масла во многих наших продуктах, особенно в линейках средств личной гигиены и эко-средств для дома.
                 </div>
               </div>
             </div>
@@ -427,12 +427,12 @@
             <div class="accordion-item">
               <h2 class="accordion-header">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2-content-1">
-                  Ac odio tempor orci dapibus. Aliquam eleifend mi in nulla?
+                  Как правильно утилизировать упаковку от ваших средств?
                 </button>
               </h2>
               <div id="faq2-content-1" class="accordion-collapse collapse" data-bs-parent="#faqlist2">
                 <div class="accordion-body">
-                  Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.
+                  Мы стремимся использовать перерабатываемые материалы. Информация о типе упаковки и способах утилизации указана на каждом продукте. Пожалуйста, следуйте местным правилам переработки.
                 </div>
               </div>
             </div>
@@ -440,12 +440,12 @@
             <div class="accordion-item">
               <h2 class="accordion-header">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2-content-2">
-                  Tempus quam pellentesque nec nam aliquam sem et tortor consequat?
+                  Предлагаете ли вы продукцию для чувствительной кожи?
                 </button>
               </h2>
               <div id="faq2-content-2" class="accordion-collapse collapse" data-bs-parent="#faqlist2">
                 <div class="accordion-body">
-                  Molestie a iaculis at erat pellentesque adipiscing commodo. Dignissim suspendisse in est ante in. Nunc vel risus commodo viverra maecenas accumsan. Sit amet nisl suscipit adipiscing bibendum est. Purus gravida quis blandit turpis cursus in
+                  Да, у нас есть специальная линейка гипоаллергенных средств личной гигиены, разработанная для чувствительной кожи и протестированная дерматологами.
                 </div>
               </div>
             </div>
@@ -453,12 +453,12 @@
             <div class="accordion-item">
               <h2 class="accordion-header">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2-content-3">
-                  Varius vel pharetra vel turpis nunc eget lorem dolor?
+                  Можно ли получить оптовый прайс-лист?
                 </button>
               </h2>
               <div id="faq2-content-3" class="accordion-collapse collapse" data-bs-parent="#faqlist2">
                 <div class="accordion-body">
-                  Laoreet sit amet cursus sit amet dictum sit amet justo. Mauris vitae ultricies leo integer malesuada nunc vel. Tincidunt eget nullam non nisi est sit amet. Turpis nunc eget lorem dolor sed. Ut venenatis tellus in metus vulputate eu scelerisque. Pellentesque diam volutpat commodo sed egestas egestas fringilla phasellus faucibus. Nibh tellus molestie nunc non blandit massa enim nec.
+                  Да, для оптовых закупок, пожалуйста, свяжитесь с нашим отделом продаж через форму на сайте или по указанному телефону.
                 </div>
               </div>
             </div>
@@ -478,17 +478,18 @@
     <div class="container" data-aos="fade-up">
 
       <header class="section-header">
-        <h2>Portfolio</h2>
-        <p>Check our latest work</p>
+        <h2>Портфолио</h2>
+        <p>Примеры нашей продукции и решения для вашего дома и гигиены.</p>
       </header>
 
       <div class="row" data-aos="fade-up" data-aos-delay="100">
         <div class="col-lg-12 d-flex justify-content-center">
           <ul id="portfolio-flters">
-            <li data-filter="*" class="filter-active">All</li>
-            <li data-filter=".filter-app">App Development</li>
-            <li data-filter=".filter-card">Web Design</li>
-            <li data-filter=".filter-web">Web Development</li>
+            <li data-filter="*" class="filter-active">Все</li>
+            <li data-filter=".filter-household">Бытовая химия</li>
+            <li data-filter=".filter-hygiene">Личная гигиена</li>
+            <li data-filter=".filter-babycare">Уход за детьми</li>
+            <li data-filter=".filter-eco">Эко-средства</li>
           </ul>
         </div>
       </div>
@@ -497,16 +498,20 @@
 
         <?php foreach ($portfolio as $key => $value) :
           // strip tags to avoid breaking any html
-          if ($value->nama_layanan == " App Development" && $value->status_portfolio == "Publish") : ?>
-            <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+          // TODO: The filtering logic below needs to be updated based on new categories.
+          // For example, instead of " App Development", it might be "Бытовая химия"
+          // and filter-app should become filter-household etc.
+          // This is a placeholder for demonstration.
+          if ($value->nama_layanan == "Бытовая химия" && $value->status_portfolio == "Publish") : ?>
+            <div class="col-lg-4 col-md-6 portfolio-item filter-household">
               <div class="portfolio-wrap">
-                <img src="<?= base_url('assets/img/portfolio/') . $value->gambar_portfolio; ?>" class="img-fluid" alt="">
+                <img src="<?= base_url('assets/img/portfolio/') . $value->gambar_portfolio; ?>" class="img-fluid" alt="<?= $value->judul_portfolio; ?>">
                 <div class="portfolio-info">
                   <h4><?= $value->judul_portfolio; ?></h4>
                   <p><?= $value->nama_layanan; ?></p>
                   <div class="portfolio-links">
                     <a href="<?= base_url('assets/img/portfolio/') . $value->gambar_portfolio; ?>" data-gallery="portfolioGallery" class="portfokio-lightbox" title="<?= $value->judul_portfolio; ?>"><i class="bi bi-plus"></i></a>
-                    <a href="<?= base_url('home/portfoliodetail/' . $value->slug_portfolio); ?>" title="More Details"><i class="bi bi-link"></i></a>
+                    <a href="<?= base_url('home/portfoliodetail/' . $value->slug_portfolio); ?>" title="Подробнее"><i class="bi bi-link"></i></a>
                   </div>
                 </div>
               </div>
@@ -516,16 +521,17 @@
 
         <?php foreach ($portfolio as $key => $value) :
           // strip tags to avoid breaking any html
-          if ($value->nama_layanan == " Web Development" && $value->status_portfolio == "Publish") : ?>
-            <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+          // TODO: The filtering logic below needs to be updated based on new categories.
+          if ($value->nama_layanan == "Личная гигиена" && $value->status_portfolio == "Publish") : ?>
+            <div class="col-lg-4 col-md-6 portfolio-item filter-hygiene">
               <div class="portfolio-wrap">
-                <img src="<?= base_url('assets/img/portfolio/') . $value->gambar_portfolio; ?>" class="img-fluid" alt="">
+                <img src="<?= base_url('assets/img/portfolio/') . $value->gambar_portfolio; ?>" class="img-fluid" alt="<?= $value->judul_portfolio; ?>">
                 <div class="portfolio-info">
                   <h4><?= $value->judul_portfolio; ?></h4>
                   <p><?= $value->nama_layanan; ?></p>
                   <div class="portfolio-links">
                     <a href="<?= base_url('assets/img/portfolio/') . $value->gambar_portfolio; ?>" data-gallery="portfolioGallery" class="portfokio-lightbox" title="<?= $value->judul_portfolio; ?>"><i class="bi bi-plus"></i></a>
-                    <a href="<?= base_url('home/portfoliodetail/' . $value->slug_portfolio); ?>" title="More Details"><i class="bi bi-link"></i></a>
+                    <a href="<?= base_url('home/portfoliodetail/' . $value->slug_portfolio); ?>" title="Подробнее"><i class="bi bi-link"></i></a>
                   </div>
                 </div>
               </div>
@@ -535,16 +541,17 @@
 
         <?php foreach ($portfolio as $key => $value) :
           // strip tags to avoid breaking any html
-          if ($value->nama_layanan == "Web Design" && $value->status_portfolio == "Publish") : ?>
-            <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+          // TODO: The filtering logic below needs to be updated based on new categories.
+          if ($value->nama_layanan == "Уход за детьми" && $value->status_portfolio == "Publish") : ?>
+            <div class="col-lg-4 col-md-6 portfolio-item filter-babycare">
               <div class="portfolio-wrap">
-                <img src="<?= base_url('assets/img/portfolio/') . $value->gambar_portfolio; ?>" class="img-fluid" alt="">
+                <img src="<?= base_url('assets/img/portfolio/') . $value->gambar_portfolio; ?>" class="img-fluid" alt="<?= $value->judul_portfolio; ?>">
                 <div class="portfolio-info">
                   <h4><?= $value->judul_portfolio; ?></h4>
                   <p><?= $value->nama_layanan; ?></p>
                   <div class="portfolio-links">
                     <a href="<?= base_url('assets/img/portfolio/') . $value->gambar_portfolio; ?>" data-gallery="portfolioGallery" class="portfokio-lightbox" title="<?= $value->judul_portfolio; ?>"><i class="bi bi-plus"></i></a>
-                    <a href="<?= base_url('home/portfoliodetail/' . $value->slug_portfolio); ?>" title="More Details"><i class="bi bi-link"></i></a>
+                    <a href="<?= base_url('home/portfoliodetail/' . $value->slug_portfolio); ?>" title="Подробнее"><i class="bi bi-link"></i></a>
                   </div>
                 </div>
               </div>
@@ -564,8 +571,8 @@
     <div class="container" data-aos="fade-up">
 
       <header class="section-header">
-        <h2>Testimonials</h2>
-        <p>What they are saying about us</p>
+        <h2>Отзывы</h2>
+        <p>Что о нас говорят</p>
       </header>
 
       <div class="testimonials-slider swiper-container" data-aos="fade-up" data-aos-delay="200">
@@ -592,7 +599,7 @@
                     <?= $isi; ?>
                   </p>
                   <div class="profile mt-auto">
-                    <img src="<?= base_url('assets/img/portfolio/') . $value->gambar_portfolio; ?>" class="testimonial-img" alt="">
+                    <img src="<?= base_url('assets/img/portfolio/') . $value->gambar_portfolio; ?>" class="testimonial-img" alt="Фото клиента">
                     <h3><?= $value->judul_portfolio; ?></h3>
                     <h4><?= $value->nama_layanan; ?></h4>
                   </div>
@@ -616,8 +623,8 @@
     <div class="container" data-aos="fade-up">
 
       <header class="section-header">
-        <h2>Team</h2>
-        <p>Our hard working team</p>
+        <h2>Команда</h2>
+        <p>Наша трудолюбивая команда</p>
       </header>
       <div class="row gy-4 d-flex justify-content-center">
         <?php foreach ($staff as $key => $value) :
@@ -626,7 +633,7 @@
             <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
               <div class="member">
                 <div class="member-img">
-                  <img src="<?= base_url('assets/img/staff/') . $value->gambar_staff; ?>" class="img-fluid" alt="">
+                  <img src="<?= base_url('assets/img/staff/') . $value->gambar_staff; ?>" class="img-fluid" alt="<?= $value->nama_staff; ?> - <?= $value->nama_kategori; ?>">
                   <div class="social">
                     <a href=""><i class="bi bi-twitter"></i></a>
                     <a href=""><i class="bi bi-facebook"></i></a>
@@ -655,8 +662,8 @@
     <div class="container" data-aos="fade-up">
 
       <header class="section-header">
-        <h2>Our Clients</h2>
-        <p>Temporibus omnis officia</p>
+        <h2>Наши клиенты</h2>
+        <p>Нам доверяют ведущие ритейлеры и дистрибьюторы.</p>
       </header>
 
       <div class="clients-slider swiper-container">
@@ -664,7 +671,7 @@
           <?php foreach ($client as $key => $value) :
             if ($value->publish == "Publish") : ?>
               <div class="swiper-slide">
-                <img src="<?= base_url('assets/img/client/') . $value->gambar_client; ?>" class="img-fluid" alt="">
+                <img src="<?= base_url('assets/img/client/') . $value->gambar_client; ?>" class="img-fluid" alt="Логотип клиента">
               </div>
             <?php endif; ?>
           <?php endforeach; ?>
@@ -681,8 +688,8 @@
     <div class="container" data-aos="fade-up">
 
       <header class="section-header">
-        <h2>Blog</h2>
-        <p>Recent posts form our Blog</p>
+        <h2>Блог</h2>
+        <p>Последние записи из нашего блога</p>
       </header>
 
       <div class="row">
@@ -701,10 +708,10 @@
           if ($value->status_berita == "Publish") : ?>
             <div class="col-lg-4 mb-2">
               <div class="post-box">
-                <div class="post-img"><img src="<?= base_url('assets/img/berita/') . $value->gambar_berita; ?>" class="img-fluid" alt=""></div>
+                <div class="post-img"><img src="<?= base_url('assets/img/berita/') . $value->gambar_berita; ?>" class="img-fluid" alt="<?= $value->judul_berita; ?>"></div>
                 <span class="post-date"><?= date('d-M-Y', strtotime($value->date_cretated)); ?></span>
                 <h3 class="post-title"><?= $value->judul_berita; ?></h3>
-                <a href="<?= base_url('home/detail/' . $value->slug_berita); ?>" class="readmore stretched-link mt-auto"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
+                <a href="<?= base_url('home/detail/' . $value->slug_berita); ?>" class="readmore stretched-link mt-auto"><span>Читать далее</span><i class="bi bi-arrow-right"></i></a>
               </div>
             </div>
           <?php endif; ?>
@@ -722,8 +729,8 @@
     <div class="container" data-aos="fade-up">
 
       <header class="section-header">
-        <h2>Contact</h2>
-        <p>Contact Us</p>
+        <h2>Контакты</h2>
+        <p>Свяжитесь с нами</p>
       </header>
 
       <div class="row gy-4">
@@ -734,29 +741,29 @@
             <div class="col-md-6">
               <div class="info-box">
                 <i class="bi bi-geo-alt"></i>
-                <h3>Address</h3>
+                <h3>Адрес</h3>
                 <p><?= $setting->alamat; ?></p>
               </div>
             </div>
             <div class="col-md-6">
               <div class="info-box">
                 <i class="bi bi-telephone"></i>
-                <h3>Call Us</h3>
+                <h3>Позвоните нам</h3>
                 <p><?= $setting->no_telepon; ?><br><?= $setting->no_telepon; ?></p>
               </div>
             </div>
             <div class="col-md-6">
               <div class="info-box">
                 <i class="bi bi-envelope"></i>
-                <h3>Email Us</h3>
+                <h3>Напишите нам</h3>
                 <p><?= $setting->email; ?><br><?= $setting->email; ?></p>
               </div>
             </div>
             <div class="col-md-6">
               <div class="info-box">
                 <i class="bi bi-clock"></i>
-                <h3>Open Hours</h3>
-                <p>Monday - Friday<br>9:00AM - 05:00PM</p>
+                <h3>Часы работы</h3>
+                <p>Понедельник - Пятница<br>09:00 - 17:00</p>
               </div>
             </div>
           </div>
@@ -768,27 +775,27 @@
             <div class="row gy-4">
 
               <div class="col-md-6">
-                <input type="text" name="name" class="form-control" placeholder="Your Name" required>
+                <input type="text" name="name" class="form-control" placeholder="Ваше имя" required>
               </div>
 
               <div class="col-md-6 ">
-                <input type="email" class="form-control" name="email" placeholder="Your Email" required>
+                <input type="email" class="form-control" name="email" placeholder="Ваш Email" required>
               </div>
 
               <div class="col-md-12">
-                <input type="text" class="form-control" name="subject" placeholder="Subject" required>
+                <input type="text" class="form-control" name="subject" placeholder="Тема" required>
               </div>
 
               <div class="col-md-12">
-                <textarea class="form-control" name="message" rows="6" placeholder="Message" required></textarea>
+                <textarea class="form-control" name="message" rows="6" placeholder="Сообщение" required></textarea>
               </div>
 
               <div class="col-md-12 text-center">
-                <div class="loading">Loading</div>
+                <div class="loading">Загрузка</div>
                 <div class="error-message"></div>
-                <div class="sent-message">Your message has been sent. Thank you!</div>
+                <div class="sent-message">Ваше сообщение было отправлено. Спасибо!</div>
 
-                <button type="submit">Send Message</button>
+                <button type="submit">Отправить сообщение</button>
               </div>
 
             </div>
